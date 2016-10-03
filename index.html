@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html class=""><head>
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
+    <h1>Etch-Sketch By Surafel</h1>
+    <!--top navigation bar div-->
+     <div class="topNavBar">
+         <!--option to select style for drawing-->
+        <select id="style">
+              <option value="0">--Default Style--</option>
+              <option value="1">--Random Color--</option>
+              <option value="2">--Black Style--</option>
+              <option value="3">--Gold--</option>
+        </select>
+         <!--a button to draw sketching divs-->
+        <button class="btns" id="sketchBtn">Sketch&gt;&gt;</button>
+         <!--a button to clear sketching divs-->
+        <button class="btns" id="clear">Clear</button>
+    </div>
+    <div style="width: 1000px;" class="sketchContainer">1- Choose Background Color <b>Style</b> from the Style Drop Down Menu.<br><br>
+                          2-Click on <b><i>Sketch</i></b> and enter the number of grids to make inside the box.<br><br>
+                          3-then come back here with the mouse pointer and start sketching.<br><br>
+                          4-Click on <b><i>Clear</i></b> to clear and restart or to make the sketching box empty.<br><br>
+                          5-Enjoy!!!
+      </div>
 
-    <h1>My Website</h1>
+ <script src="js/jQuery.js"></script>
+ <script src="js/scripts.js"></script>
 
-    <p>This is my first website</p>
-
-  </body>
-</html>		
+</body></html>

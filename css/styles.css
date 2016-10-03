@@ -1,4 +1,81 @@
-body
-{
-  font-size: 40pt;
+body{
+  width: window.width;
+  display: inline-block;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: Brown;
+  background-color: DarkCyan;
+  border: 1px solid DarkCyan;
+  text-shadow: 3px 3px 5px blue;
+  box-shadow: 3px 3px 5px blue;
+}
+.topNavBar{
+    width: auto;
+    height: 50px;
+}
+#style{
+  /*border*/
+  border: 2px solid green;
+  box-shadow: 1px 1px 8px blue;
+  border-radius: 3px;
+  /*color*/
+  background-color: gainsboro;
+  color: green;
+  /*size*/
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-shadow: 2px 2px 5px yellow;
+}
+#sketchBtn{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    box-shadow: 1px 1px 8px green;
+    font-weight: bold;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    background: green;
+    border: 1px solid green;
+    border-radius: 7px;
+}
+#clear{
+  position: relative;
+  left: 60%;
+  width: 150px;
+  height: 40px;
+  box-shadow: 1px 1px 8px red;
+  font-weight: bold;
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+  background: red;
+  border: 1px solid red;
+  border-radius: 7px;
+}
+.sketchContainer{
+    width: 1000px;
+    height: 1000px;
+    max-height: 1500px;
+    margin-left: 25px;
+    margin-top:  30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 0px 10px 10px red;
+    text-align: left;
+    color: red;
+    font-size: 30px;
+}
+.square{
+    display: inline-block;
+    border: 1px solid white;
+}
+.btns:hover{
+    background-color: wheat;
 }
